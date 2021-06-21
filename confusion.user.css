@@ -1,0 +1,32 @@
+@-moz-document url-prefix("https://confusing.wtf/") {
+/* ==UserStyle==
+@name           Confusing.wtf Vaultcore Theme
+@namespace      PhoenixAceVFX
+@author         PhoenixAceVFX
+@description    My custom theme for confusion.wtf
+@version		1.3.1
+==/UserStyle== */
+div .p-body {
+	background-image: url("https://cdn.discordapp.com/attachments/831321249011597363/841371639093657651/flexuh-vr-catsuitshowcase2.png"); /*Custom Background Image*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+div .p-sectionLinks {
+	opacity: 0.5;
+}
+div .p-header-logo {
+	content: url("https://i.imgur.com/mhgUeXu.png"); /*Custom Logo*/
+	width: 400px;
+	height: 85px;
+}
+div .p-body-main {
+	opacity: 0.7;
+}
+div .header--proxy {
+	background-image: url("https://i.imgur.com/nOGaipj.png"); /*Custom Banner*/
+}
+div .p-navSticky {
+	opacity: 1; /*Sidebar Opacity*/
+	background-image: url("https://i.imgur.com/4Tlaq5q.png"); /*Sidebar Image*/
+}
+}
